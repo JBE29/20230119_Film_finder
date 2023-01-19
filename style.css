@@ -4,7 +4,7 @@
     --md-dark-color: #1d1d1d;
     --dark-color: #171717;
     --light-dark-color: #292929;
-    --yellow-color: #d4aa11;
+    --yellow-color: #FFC300;
 }
 *{
     padding: 0;
@@ -24,7 +24,7 @@ img{
 }
 .wrapper{
     min-height: 100vh;
-    background-color: var(--dark-color);
+    background-color: white;
 }
 .wrapper .container{
     max-width: 1200px;
@@ -167,7 +167,7 @@ img{
 }
 .movie-info{
     text-align: center;
-    color: #fff;
+    color: var(--dark-color);
     padding-top: 3rem;
 }
 
@@ -208,7 +208,7 @@ img{
     margin: 1rem 0;
 }
 .movie-info .genre{
-    background-color: var(--light-dark-color);
+    background-color: var(--yellow-color);
     display: inline-block;
     padding: 0.5rem;
     border-radius: 3px;
